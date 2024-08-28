@@ -59,7 +59,7 @@ public enum DAOTypography {
             let font = UIFont.systemFont(ofSize: 14, weight: .regular)
             let lineHeight = 20.0
             var attributes = getTypographyAttributes(with: font, lineHeight: lineHeight)
-            attributes[.underlineStyle] = NSUnderlineStyle.styleSingle.rawValue
+            attributes[.underlineStyle] = NSUnderlineStyle.single.rawValue
             return attributes
             
         case .bodySm:

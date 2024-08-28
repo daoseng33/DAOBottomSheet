@@ -281,7 +281,7 @@ open class DAOBottomSheetViewController: UIViewController {
             }
         }
         
-        view.bringSubview(toFront: separatorView)
+        view.bringSubviewToFront(separatorView)
     }
     
     private func setupNavigationItem() {

@@ -189,16 +189,16 @@ public class DAOBottomSheet {
     }
     
     private func addBottomSheetToChild() {
-        if !parentVC.childViewControllers.contains(navigation) {
+        if !parentVC.children.contains(navigation) {
             parentVC.view.addSubview(maskView)
             
             bottomConstraint = navigation.view.bottomAnchor.constraint(equalTo: parentVC.view.bottomAnchor, constant: rootVC.getTotalHeight())
             
-            parentVC.addChildViewController(navigation)
+            parentVC.addChild(navigation)
             // This line will call child vc's viewWillAppear().
             navigation.beginAppearanceTransition(true, animated: true)
             parentVC.view.addSubview(navigation.view)
-            navigation.didMove(toParentViewController: parentVC)
+            navigation.didMove(toParent: parentVC)
             // This line will call child vc's viewDidAppear().
             navigation.endAppearanceTransition()
             
@@ -220,11 +220,11 @@ public class DAOBottomSheet {
         maskView.removeFromSuperview()
         // This line will call child vc's viewWillDisappear().
         navigation.beginAppearanceTransition(false, animated: true)
-        navigation.willMove(toParentViewController: nil)
+        navigation.willMove(toParent: nil)
         navigation.view.removeFromSuperview()
         // This line will call child vc's viewDidDisappear().
         navigation.endAppearanceTransition()
-        navigation.removeFromParentViewController()
+        navigation.removeFromParent()
     }
     
     @objc private func handleMaskViewTapped() {

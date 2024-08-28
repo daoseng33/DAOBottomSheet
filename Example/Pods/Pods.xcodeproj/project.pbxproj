@@ -183,7 +183,7 @@
 		E2FBA2DFCCA98C6CBB0DE666072D08F1 /* Pods-DAOBottomSheet_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DAOBottomSheet_Example-Info.plist"; sourceTree = "<group>"; };
 		E43F10DE451FED17810D9B5C237324A5 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
 		E7CA32372D187971909D6E2558B44785 /* Pods-DAOBottomSheet_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DAOBottomSheet_Example-dummy.m"; sourceTree = "<group>"; };
-		EB968BDAAAFCBFFB392755ECBFE8C967 /* DAOBottomSheet */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DAOBottomSheet; path = DAOBottomSheet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB968BDAAAFCBFFB392755ECBFE8C967 /* DAOBottomSheet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DAOBottomSheet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED960218E27F4F60437B19236156DD90 /* DAOBottomSheet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DAOBottomSheet.modulemap; sourceTree = "<group>"; };
 		EDDF75CAA9B330EA3A674C5A8DF11905 /* Pods-DAOBottomSheet_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DAOBottomSheet_Tests-dummy.m"; sourceTree = "<group>"; };
 		EE9055CEA7890517265589BD23D73A49 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
@@ -299,7 +299,7 @@
 		67C30C73287E49AB81C9CFFCCEFBA81C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EB968BDAAAFCBFFB392755ECBFE8C967 /* DAOBottomSheet */,
+				EB968BDAAAFCBFFB392755ECBFE8C967 /* DAOBottomSheet.framework */,
 				8840D16506E50C23EDF726CA38B506AC /* DAOBottomSheet-DAOBottomSheet */,
 				3D0F20C317D2A6A9FA90DA0ADC36CC8D /* Pods-DAOBottomSheet_Example */,
 				97A0AFEC25C26CD0763B54FB7526CE4F /* Pods-DAOBottomSheet_Tests */,
@@ -578,7 +578,7 @@
 			);
 			name = DAOBottomSheet;
 			productName = DAOBottomSheet;
-			productReference = EB968BDAAAFCBFFB392755ECBFE8C967 /* DAOBottomSheet */;
+			productReference = EB968BDAAAFCBFFB392755ECBFE8C967 /* DAOBottomSheet.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D58C6AD0DCA4697EA1AA4D3D1E0C015C /* Pods-DAOBottomSheet_Tests */ = {
@@ -1041,7 +1041,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1170,7 +1170,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
