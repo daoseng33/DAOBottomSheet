@@ -54,7 +54,9 @@ func setupCustomContentScrollView(bottomSheet: DAOBottomSheetViewController) -> 
 ```
 
 ## Requirements
-iOS 15+
+
+- Swift 5.0
+- iOS 15+
 
 ## Installation
 

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DAOBottomSheet'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A navigatable bottom sheet that can put your custom content inside.'
 
 # This description is used to generate tags and improve search results.
@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 A navigatable bottom sheet that can put your custom content inside.
+you can customize bottom sheet height or let it fit to the content automatically.
                        DESC
 
   s.homepage         = 'https://github.com/daoseng33/DAOBottomSheet'
@@ -35,6 +36,8 @@ A navigatable bottom sheet that can put your custom content inside.
   s.resource_bundles = {
     'DAOBottomSheet' => ['DAOBottomSheet/Assets/*.xcassets']
   }
+
+  s.swift_version = '5.0'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
