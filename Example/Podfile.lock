@@ -1,0 +1,16 @@
+PODS:
+  - DAOBottomSheet (0.1.0)
+
+DEPENDENCIES:
+  - DAOBottomSheet (from `../`)
+
+EXTERNAL SOURCES:
+  DAOBottomSheet:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DAOBottomSheet: 693fa2a753ca36840d3580c96f3471fd76234d2b
+
+PODFILE CHECKSUM: 2b4b83be6597a81d3897f7132b56046edd204f32
+
+COCOAPODS: 1.13.0

@@ -1,0 +1,6 @@
+framework module Pods_DAOBottomSheet_Tests {
+  umbrella header "Pods-DAOBottomSheet_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
