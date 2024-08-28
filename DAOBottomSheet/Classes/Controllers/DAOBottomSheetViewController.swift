@@ -287,11 +287,14 @@ open class DAOBottomSheetViewController: UIViewController {
     private func setupNavigationItem() {
         navigationItem.title = headerTitle
         
-        setupBackItem()
+        if !isNavigationRootVC {
+            setupBackItem()
+        }
     }
     
     private func setupBackItem() {
-        let backImage: UIImage? = isNavigationRootVC ? UIImage(named: "ic_cross_line") : UIImage(named: "ic_arrowLeft_line")
+        let bundle = try? DAOResources.bundle()
+        let backImage = UIImage(named: "ic_arrowLeft_line", in: bundle, with: nil)
         let backButton = UIButton()
         backButton.setImage(backImage, for: .normal)
         backButton.addTarget(self, action: #selector(handleBackButtonTapped), for: .touchUpInside)

@@ -1,16 +1,23 @@
 PODS:
-  - DAOBottomSheet (0.1.0)
+  - DAOBottomSheet (1.0.0)
+  - SnapKit (5.0.1)
 
 DEPENDENCIES:
   - DAOBottomSheet (from `../`)
+  - SnapKit (~> 5.0.0)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
 
 EXTERNAL SOURCES:
   DAOBottomSheet:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DAOBottomSheet: 693fa2a753ca36840d3580c96f3471fd76234d2b
+  DAOBottomSheet: d8301d35c70238727aa0ac9feea64528a15a4400
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: 2b4b83be6597a81d3897f7132b56046edd204f32
+PODFILE CHECKSUM: 71eabf47d6bf743787d50bffe14261cdc6694904
 
 COCOAPODS: 1.13.0
