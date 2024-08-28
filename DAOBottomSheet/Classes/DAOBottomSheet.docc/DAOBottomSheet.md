@@ -44,7 +44,7 @@ func setupDAOBottomSheetContentUI(bottomSheet: DAOBottomSheetViewController) -> 
 }
 ```
 
-If you have a custom scroll view(or table view, colleciton view, etc), implement ``DAOBottomSheetDelegate/setupCustomContentScrollView(bottomSheet:)-58oka`` insetead.
+If you have a custom scroll view(or table view, collection view, etc), implement ``DAOBottomSheetDelegate/setupCustomContentScrollView(bottomSheet:)-58oka`` instead.
 
 ```swift
 func setupCustomContentScrollView(bottomSheet: DAOBottomSheetViewController) -> UIScrollView? {
