@@ -8,12 +8,9 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Overview
+## Usage
 https://github.com/user-attachments/assets/3800cac0-9b42-4f99-9a4b-4bf495e8be23
 
-![bottom-sheet-relationships](https://github.com/user-attachments/assets/8a18772f-d221-45af-93a4-076723e183c0)
-
-## Usage
 Hold bottom sheet as a local reference.
 
 ```swift
