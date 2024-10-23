@@ -10,7 +10,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ### Swift Package Manager
 
-You can add YourFrameworkName to an Xcode project by adding it as a package dependency.
+You can add DAOBottomSheet to an Xcode project by adding it as a package dependency.
 
 1. From the **File** menu, select **Swift Packages › Add Package Dependency...**
 2. Enter "https://github.com/daoseng33/DAOBottomSheet.git" into the package repository URL text field
