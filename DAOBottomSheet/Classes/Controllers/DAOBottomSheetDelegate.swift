@@ -57,4 +57,8 @@ public extension DAOBottomSheetDelegate {
     func setupFooterSlotContent(with bottomSheet: DAOBottomSheetViewController) -> UIView? {
         return nil
     }
+    
+    func bottomSheetWillDismiss(bottomSheet: DAOBottomSheetViewController) {
+        
+    }
 }
