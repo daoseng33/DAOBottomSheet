@@ -159,6 +159,8 @@ public class DAOBottomSheet {
     }
     
     private func dismiss(with duration: CGFloat = 0.3, completion: (() -> Void)? = nil) {
+        delegate?.bottomSheetWillDismiss(bottomSheet: rootVC)
+        
         animateBottomSheet(isShow: false, duration: duration, completion: { [weak self, weak parentVC] in
             guard let self = self, let parentVC = parentVC else { return }
             

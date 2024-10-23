@@ -35,6 +35,10 @@ public protocol DAOBottomSheetDelegate: AnyObject {
     ///
     /// Implement this function will show the footer slot view above footer content view.
     func setupFooterSlotContent(with bottomSheet: DAOBottomSheetViewController) -> UIView?
+    
+    
+    /// Called when bottom sheet is goning to dismiss.
+    func bottomSheetWillDismiss(bottomSheet: DAOBottomSheetViewController)
 }
 
 public extension DAOBottomSheetDelegate {
