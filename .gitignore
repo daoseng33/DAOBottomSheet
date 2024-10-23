@@ -17,6 +17,11 @@ xcuserdata/
 DerivedData
 *.hmap
 *.ipa
+/.build
+/Packages
+/*.xcodeproj
+xcuserdata/
+.swiftpm/
 
 # Bundler
 .bundle

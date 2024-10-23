@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DAOBottomSheet'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'A navigatable bottom sheet that can put your custom content inside.'
 
 # This description is used to generate tags and improve search results.
@@ -41,5 +41,5 @@ you can customize bottom sheet height or let it fit to the content automatically
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'SnapKit', '~> 5.0.1'
 end

@@ -4,9 +4,17 @@
 [![License](https://img.shields.io/cocoapods/l/DAOBottomSheet.svg?style=flat)](https://cocoapods.org/pods/DAOBottomSheet)
 [![Platform](https://img.shields.io/cocoapods/p/DAOBottomSheet.svg?style=flat)](https://cocoapods.org/pods/DAOBottomSheet)
 
-## Example
-
+## Installation
+### Cocoapods
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+### Swift Package Manager
+
+You can add YourFrameworkName to an Xcode project by adding it as a package dependency.
+
+1. From the **File** menu, select **Swift Packages › Add Package Dependency...**
+2. Enter "https://github.com/daoseng33/DAOBottomSheet.git" into the package repository URL text field
+3. Link `DAOBottomSheet` to your application target
 
 ## Usage
 https://github.com/user-attachments/assets/3800cac0-9b42-4f99-9a4b-4bf495e8be23
