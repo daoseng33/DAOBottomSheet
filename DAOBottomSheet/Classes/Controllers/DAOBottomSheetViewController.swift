@@ -173,7 +173,7 @@ open class DAOBottomSheetViewController: UIViewController {
     }
     
     private func setupUI(isCustomScrollView: Bool) {
-        view.backgroundColor = .white
+        view.backgroundColor = .systemBackground
         
         let contentScrollViewTopConstraint: NSLayoutConstraint
         let contentScrollViewBottomConstraint: NSLayoutConstraint

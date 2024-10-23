@@ -32,12 +32,7 @@ open class DAOBottomSheetNavigationController: UINavigationController {
     public init(with title: String? = nil, type: DAOBottomSheetViewController.BottomSheetType = .flexible) {
         rootVC = DAOBottomSheetViewController(title: title, type: type)
         
-        if #available(iOS 13.0, *) {
-            super.init(rootViewController: rootVC)
-        } else {
-            super.init(nibName: nil, bundle: nil)
-            self.viewControllers = [rootVC]
-        }
+        super.init(rootViewController: rootVC)
     }
     
     required public init?(coder aDecoder: NSCoder) {
@@ -66,16 +61,14 @@ open class DAOBottomSheetNavigationController: UINavigationController {
     }
     
     private func setupUI() {
-        view.backgroundColor = .white
+        view.backgroundColor = .systemBackground
+            
+        let grabberViewHeight: CGFloat = 20
+        // Don't ask, designer want it.
+        let additionalHeight: CGFloat = 2
+        let topMarginShifting: CGFloat = grabberViewHeight + additionalHeight
+        additionalSafeAreaInsets.top = -topMarginShifting
         
-        if #available(iOS 13, *) {
-            let grabberViewHeight: CGFloat = 20
-            // Don't ask, designer want it.
-            let additionalHeight: CGFloat = 2
-            let topMarginShifting: CGFloat = grabberViewHeight + additionalHeight
-            additionalSafeAreaInsets.top = -topMarginShifting
-        }
-
         roundingTopCorner(with: view, radius: 16)
     }
     
@@ -83,9 +76,15 @@ open class DAOBottomSheetNavigationController: UINavigationController {
         var attributes = DAOTypography.subtitleLg.attributes
         attributes[.foregroundColor] = UIColor(red: 0.129, green: 0.129, blue: 0.129, alpha: 1)
         navigationBar.titleTextAttributes = attributes
+        let appearance = UINavigationBarAppearance()
+        appearance.configureWithOpaqueBackground()
+        appearance.backgroundColor = .systemBackground
+ 
+        navigationBar.standardAppearance = appearance
+        navigationBar.scrollEdgeAppearance = appearance
+        
         navigationBar.shadowImage = UIImage()
         navigationBar.setBackgroundImage(UIImage(), for: .default)
-        navigationBar.backgroundColor = .white
     }
     
     private func setupGrabberView() {

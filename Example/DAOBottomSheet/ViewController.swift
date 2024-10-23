@@ -136,7 +136,7 @@ class ViewController: UITableViewController {
             
         case customTableView:
             let vc = DAOBottomSheetViewController()
-            vc.view.backgroundColor = .white
+            vc.view.backgroundColor = .systemBackground
             bottomSheet?.navigation.pushViewController(vc, animated: true)
             
         default:
@@ -271,13 +271,13 @@ extension ViewController: DAOBottomSheetDelegate {
 
     @objc func fixed300ButtonTapped() {
         let vc = DAOBottomSheetViewController()
-        vc.view.backgroundColor = .white
+        vc.view.backgroundColor = .systemBackground
         bottomSheet?.navigation.pushViewController(vc, animated: true)
     }
     
     @objc func fixed1000ButtonTapped() {
         let vc = DAOBottomSheetViewController()
-        vc.view.backgroundColor = .white
+        vc.view.backgroundColor = .systemBackground
         bottomSheet?.navigation.pushViewController(vc, animated: true)
     }
     

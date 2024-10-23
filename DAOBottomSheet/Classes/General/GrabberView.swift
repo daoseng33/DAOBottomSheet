@@ -36,7 +36,7 @@ class GrabberView: UIView {
     
     // MARK: - Setup
     private func setup() {
-        backgroundColor = .white
+        backgroundColor = .systemBackground
         addSubview(grabberView)
         
         let bottomConstraint = grabberView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -10)
