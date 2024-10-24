@@ -33,6 +33,18 @@ public class DAOBottomSheet {
         }
     }
     
+    public var backgroundColor: UIColor? {
+        didSet {
+            rootVC.view.backgroundColor = backgroundColor
+            let appearance = UINavigationBarAppearance()
+            appearance.configureWithOpaqueBackground()
+            appearance.backgroundColor = backgroundColor
+     
+            navigation.navigationBar.standardAppearance = appearance
+            navigation.navigationBar.scrollEdgeAppearance = appearance
+        }
+    }
+    
     // Private
     private var isDragging: Bool = false
     private var isReachTriggerPoint: Bool = false
