@@ -4,7 +4,7 @@ PODS:
 
 DEPENDENCIES:
   - DAOBottomSheet (from `../`)
-  - SnapKit (~> 5.0.0)
+  - SnapKit (~> 5.0.1)
 
 SPEC REPOS:
   trunk:
@@ -18,6 +18,6 @@ SPEC CHECKSUMS:
   DAOBottomSheet: ebe8b092eaf2e92b4c61877d398799a145c2ced8
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: 71eabf47d6bf743787d50bffe14261cdc6694904
+PODFILE CHECKSUM: 2b69cd2e459dfd85a4b9b66f1b9c4c4a32907aa9
 
 COCOAPODS: 1.15.2
