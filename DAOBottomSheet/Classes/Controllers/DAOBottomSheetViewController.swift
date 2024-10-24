@@ -195,13 +195,7 @@ open class DAOBottomSheetViewController: UIViewController {
                 headerView.bottomAnchor.constraint(equalTo: headerSlotView.bottomAnchor)
             ])
             
-            let topConstraint: NSLayoutConstraint = {
-                if #available(iOS 13, *) {
-                    return headerSlotView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: headerAdditionalHeight)
-                } else {
-                    return headerSlotView.topAnchor.constraint(equalTo: view.topAnchor)
-                }
-            }()
+            let topConstraint: NSLayoutConstraint = headerSlotView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: headerAdditionalHeight)
             
             NSLayoutConstraint.activate([
                 topConstraint,
@@ -213,13 +207,8 @@ open class DAOBottomSheetViewController: UIViewController {
             
             separatorTopConstraint = separatorView.topAnchor.constraint(equalTo: headerSlotView.bottomAnchor)
         } else {
-            if #available(iOS 13, *) {
-                contentScrollViewTopConstraint = contentScrollView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: headerAdditionalHeight)
-                separatorTopConstraint = separatorView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: headerAdditionalHeight)
-            } else {
-                contentScrollViewTopConstraint = contentScrollView.topAnchor.constraint(equalTo: view.topAnchor)
-                separatorTopConstraint = separatorView.topAnchor.constraint(equalTo: view.topAnchor)
-            }
+            contentScrollViewTopConstraint = contentScrollView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: headerAdditionalHeight)
+            separatorTopConstraint = separatorView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: headerAdditionalHeight)
         }
         
         NSLayoutConstraint.activate([
@@ -323,9 +312,7 @@ open class DAOBottomSheetViewController: UIViewController {
     
     private func setupContentScrollView() {
         contentScrollView.translatesAutoresizingMaskIntoConstraints = false
-        if #available(iOS 13.0, *) {
-            contentScrollView.automaticallyAdjustsScrollIndicatorInsets = false
-        }
+        contentScrollView.automaticallyAdjustsScrollIndicatorInsets = false
         
         contentScrollView.contentInsetAdjustmentBehavior = .never
         

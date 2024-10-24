@@ -51,24 +51,11 @@ open class DAOBottomSheetNavigationController: UINavigationController {
     // MARK: - Setup
     private func setup() {
         setupUI()
-        
-        if #available(iOS 13, *) {
-            // Setting additionalSafeAreaInsets.top is not working for iOS 12, so it is not properly to add grabber view to iOS 12 device.
-            setupGrabberView()
-        }
-        
+        setupGrabberView()
         setupNavigationBar()
     }
     
     private func setupUI() {
-        view.backgroundColor = .systemBackground
-            
-        let grabberViewHeight: CGFloat = 20
-        // Don't ask, designer want it.
-        let additionalHeight: CGFloat = 2
-        let topMarginShifting: CGFloat = grabberViewHeight + additionalHeight
-        additionalSafeAreaInsets.top = -topMarginShifting
-        
         roundingTopCorner(with: view, radius: 16)
     }
     
@@ -88,6 +75,8 @@ open class DAOBottomSheetNavigationController: UINavigationController {
     }
     
     private func setupGrabberView() {
+        let grabberViewHeight: CGFloat = 20
+        additionalSafeAreaInsets.top = -grabberViewHeight
         view.addSubview(grabberView)
         NSLayoutConstraint.activate([
             grabberView.topAnchor.constraint(equalTo: view.topAnchor),

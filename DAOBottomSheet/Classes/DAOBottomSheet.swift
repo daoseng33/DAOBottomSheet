@@ -320,12 +320,7 @@ public class DAOBottomSheet {
     
     private func impactHapticFeedback() {
         DispatchQueue.main.async {
-            var feedback: UIImpactFeedbackGenerator
-            if #available(iOS 13.0, *) {
-                feedback = UIImpactFeedbackGenerator(style: .rigid)
-            } else {
-                feedback = UIImpactFeedbackGenerator(style: .medium)
-            }
+            let feedback = UIImpactFeedbackGenerator(style: .rigid)
             
             feedback.impactOccurred()
         }
