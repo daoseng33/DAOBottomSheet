@@ -41,5 +41,5 @@ you can customize bottom sheet height or let it fit to the content automatically
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'SnapKit', '~> 5.0.1'
+  
 end

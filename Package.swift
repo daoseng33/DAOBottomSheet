@@ -12,13 +12,11 @@ let package = Package(
             targets: ["DAOBottomSheet"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/SnapKit/SnapKit.git", .upToNextMajor(from: "5.0.1")),
     ],
     targets: [
         .target(
             name: "DAOBottomSheet",
             dependencies: [
-                "SnapKit",
             ],
             path: "DAOBottomSheet/"),
     ]

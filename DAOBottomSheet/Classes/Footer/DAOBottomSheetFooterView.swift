@@ -34,10 +34,6 @@ open class DAOBottomSheetFooterView: UIView {
     }()
     
     // MARK: - UI
-    
-    /// A separator view above footer view.
-    public lazy var separatorView: UIView = SeparatorView()
-    
     /// A customizable slot view above contentView.
     ///
     /// Your can setup slotContentView via ``DAOBottomSheetFooterViewDelegate/setupSlotContent()-6ha8z``
@@ -60,7 +56,7 @@ open class DAOBottomSheetFooterView: UIView {
     }()
     
     private lazy var containerStackView: UIStackView = {
-        let view = UIStackView(arrangedSubviews: [separatorView, slotContentView, contentContainerView])
+        let view = UIStackView(arrangedSubviews: [slotContentView, contentContainerView])
         view.distribution = .fill
         view.alignment = .fill
         view.axis = .vertical
@@ -112,10 +108,6 @@ open class DAOBottomSheetFooterView: UIView {
             contentView.leftAnchor.constraint(equalTo: contentContainerView.leftAnchor, constant: 24),
             contentView.rightAnchor.constraint(equalTo: contentContainerView.rightAnchor, constant: -24),
             contentView.heightAnchor.constraint(equalToConstant: 48)
-        ])
-        
-        NSLayoutConstraint.activate([
-            separatorView.heightAnchor.constraint(equalToConstant: 1)
         ])
     }
     

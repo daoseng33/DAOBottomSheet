@@ -7,97 +7,97 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		061E89159F74A7D08D7FB2CA5ECC88DD /* DAOBottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50097D6F442B044C5717DBAEE768DDDA /* DAOBottomSheetViewController.swift */; };
+		103E5D48BED7797207CA9DB7B9A5C59D /* DAOBottomSheetFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD1FB418E237D6E0427BD96F4FF337D /* DAOBottomSheetFooterView.swift */; };
 		144DA93A55A598F5197F10C729FBDD69 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9341666EAC154422A032092A7DC2D7 /* UILayoutSupport+Extensions.swift */; };
 		17BE0F4E51B0FB968125F1A520607FD8 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AB9BB47A2175181386A432C07253AE /* ConstraintMultiplierTarget.swift */; };
-		1CDA35222C7F1DC2001FF654 /* DAOResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDA35212C7F1DC2001FF654 /* DAOResources.swift */; };
-		1CDA35262C7F2605001FF654 /* DAOBottomSheet.docc in Sources */ = {isa = PBXBuildFile; fileRef = 1CDA35252C7F2605001FF654 /* DAOBottomSheet.docc */; };
 		1E9EEA756F2774D73347F1660EEFE3E9 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9055CEA7890517265589BD23D73A49 /* ConstraintView+Extensions.swift */; };
 		274DF0E2BF04F6F4F9F1E70CF513A4F2 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A46A8054577838D49C60142EB88B13 /* ConstraintLayoutSupportDSL.swift */; };
 		2971BFBF4DCE3C8BA572447AB9AE493F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2DA57A6959EC990FB7A263D046CA7B48 /* DAOBottomSheetFooterViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDBAB211D3CBC696C95D5B7564793F5 /* DAOBottomSheetFooterViewDelegate.swift */; };
 		362BD9A4955680AB4AF3484A7B6FA638 /* Pods-DAOBottomSheet_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDF75CAA9B330EA3A674C5A8DF11905 /* Pods-DAOBottomSheet_Tests-dummy.m */; };
 		3B60C02F6E42FD06B128473E00A94224 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D705690D879064ED84970813189D8D4 /* ConstraintLayoutSupport.swift */; };
 		3CD5FAFC746A76D73C3F501734199DFF /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E066869A95E00B949CBA4D2284C35F /* Typealiases.swift */; };
 		3DEDFA52B3A196F6D3E1F0937617628A /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BF299D2EEB87E7DD02630E87B96224 /* ConstraintLayoutGuide+Extensions.swift */; };
 		43863B6D6A0E47B6648BB7B469736EDD /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44C5B72775F6AF0891BF331F32FE10D /* LayoutConstraint.swift */; };
-		47A3668F3F57647E266C208B064CF119 /* DAOBottomSheetFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408B3A89F6C096BE50B4B30E5826C278 /* DAOBottomSheetFooterView.swift */; };
-		47BDD285AB093FCD7DBB313BD02785CE /* DAOBottomSheetFooterViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F42DA8A69093D13C95343A3A903D5CB /* DAOBottomSheetFooterViewDelegate.swift */; };
-		4AD7601E0D6055FBF4485B856139141A /* GrabberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3860F5DBC73DFB459833170FAF192B16 /* GrabberView.swift */; };
 		4CA13A0527BC57DE2C54A0F3B5ED8652 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464C01543F3BCEDEE51ABAA696513D0B /* LayoutConstraintItem.swift */; };
 		51A4A1046676D304410544EB56732A49 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50380F281EC3EE769C85035CCEA77226 /* Constraint.swift */; };
-		521F8A2249C5DA079760BD00430C335E /* DAOTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A77B0EA52883CA7F9434CF4246B864 /* DAOTypography.swift */; };
+		53FCC806904420CA64D95805DA2CC316 /* DAOResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB70EC4AB0862940B8DE44652F176CA /* DAOResources.swift */; };
 		5E8BA529DFB4529006967624044FEC1C /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56006AA49A060CA2830F32CD6F394823 /* ConstraintViewDSL.swift */; };
 		62F299B4704A7C95FB5866C6CDE2E2FD /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B200BD964F52F6693D4168248B8645 /* ConstraintOffsetTarget.swift */; };
 		6834AF8E6F0422D436AA9FCFD8674FA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6C749CA70A55CA13CACEF71CF07483BF /* SeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B110276B2D919E16BF5DB359BF7F9667 /* SeparatorView.swift */; };
 		7580FAAB1BDA52F5A969E5571D1A5973 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F460233F2A555D41511B6CCA66A124 /* ConstraintAttributes.swift */; };
 		7764AA5F6BBFC6ECE43959923DD007D3 /* ConstraintDirectionalInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D358AA1606C7B2CDC8555485807E9E /* ConstraintDirectionalInsetTarget.swift */; };
+		79BEEC532E49A8040DE0049B9F77649B /* DAOBottomSheet-DAOBottomSheet in Resources */ = {isa = PBXBuildFile; fileRef = 8840D16506E50C23EDF726CA38B506AC /* DAOBottomSheet-DAOBottomSheet */; };
 		8211AE63E64D004CEE0CA74D841960E6 /* Pods-DAOBottomSheet_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 316251A581DB78096AAD548054B2A2CE /* Pods-DAOBottomSheet_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		824C2C8E85D0A3C20AFF92E0722B011A /* DAOTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B5393AADD0C5C93FF432A71FB2E259 /* DAOTypography.swift */; };
 		825062025906CE93C5D124E1FD9A811E /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43F10DE451FED17810D9B5C237324A5 /* ConstraintMakerExtendable.swift */; };
-		8308EFB151DDF5FA8F8408148C9AD152 /* DAOBottomSheet-DAOBottomSheet in Resources */ = {isa = PBXBuildFile; fileRef = 8840D16506E50C23EDF726CA38B506AC /* DAOBottomSheet-DAOBottomSheet */; };
 		8449EB1DFD43E222D687D5A8D2088D2D /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0BE9F3D55FDB29EF516F6D6B1B6BCA /* ConstraintLayoutGuideDSL.swift */; };
-		86B548373B99EDBA18A3BEBAEBE430E2 /* SeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D76611C5B9F564F4524A5BA143E3DA /* SeparatorView.swift */; };
-		87150FC36B22FF9BCEEFD2770EB794E0 /* DAOBottomSheet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B03BF75E347F66B797BF412279565C0 /* DAOBottomSheet-dummy.m */; };
 		8C6546C1EF4F153DF3795CC6FE189E5B /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549471CD1FE3A1E1865DD172864918D3 /* ConstraintInsets.swift */; };
 		8FD9CD608C4EAAFDE6AC7B8B9EF0FF5E /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1D9F6F4E2364DFAF158E04AF5D5EAA /* ConstraintDescription.swift */; };
 		90FD5AE525E138A473723FD79AF73273 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE00ECC24C5CC6DC938204FF42AD0E5 /* ConstraintDSL.swift */; };
-		9193CEE74DA4104E6E0F33E4AFDF9C4A /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A256E22094DC778D1758A361357D0843 /* Icons.xcassets */; };
+		940625007DD6A33ABE255352296057EE /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42EE0AAB21191C863C847C6FDD235CED /* Icons.xcassets */; };
 		968B4874A9F12D67C8B901136C9C8157 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E13B89FFD81AACB7530769CA05EEA26B /* SnapKit-dummy.m */; };
 		A0F754C88A64972A40A9008B0AD52109 /* ConstraintDirectionalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91164BE769DA144776663FBF46785561 /* ConstraintDirectionalInsets.swift */; };
 		A108FED23C1C8545F604B9FE8F090190 /* Pods-DAOBottomSheet_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E20F48D68AF7F169E8D1C6CA044CF23 /* Pods-DAOBottomSheet_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A22AE7C9D76FBB4D93381B794377D374 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A4467357581E8345DD348683CC4111AF /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0116B84A6773B75FCBFCB479E740F0F3 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A53D3AF15CE8D348306EF11619C5D166 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C3B0B200350EAC8F42EF635FF31BD1 /* ConstraintMakerEditable.swift */; };
+		ADEA23E12E1DCAD1F2C6070C4A316BB7 /* DAOBottomSheetNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83353918433EF313537D3F91A126AFE2 /* DAOBottomSheetNavigationController.swift */; };
+		B1B5CED3641C150983685C68D51DA0C6 /* DAOBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50550F72BE914201C2DE4E347C8E4E9 /* DAOBottomSheet.swift */; };
 		B543FD108C1C6AF6129CB4991553218B /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250E41DBB680A3A2ECDDD2210311B230 /* ConstraintConfig.swift */; };
 		BD333CDBCF5D2FD55920336FC271DF33 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474AFC560A8B414B467174737DBC891A /* ConstraintItem.swift */; };
 		BEBF920FEB959B46A76BAADF22E5CD15 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2EC377264B25FB0E67D150E37E87CD /* ConstraintInsetTarget.swift */; };
+		C11FAF8C9CE07A5485DCD91834606371 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C15793CFF765FF8845C2E975792BF927 /* DAOBottomSheet.docc in Sources */ = {isa = PBXBuildFile; fileRef = 1892E267037011260039C20A37D00CCC /* DAOBottomSheet.docc */; };
+		C4CEC7FD18900D789FBEB84C075D6EA0 /* DAOBottomSheet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 249E478D60F66631CF73DE23AE9A017E /* DAOBottomSheet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C61D3BC32A28A405C934C00039AD2583 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D990E0FED5B41C1F13AC6B08208A99B /* ConstraintConstantTarget.swift */; };
 		CA03D3AB400CC86BD3BEE60AAEC4BEE2 /* Pods-DAOBottomSheet_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CA32372D187971909D6E2558B44785 /* Pods-DAOBottomSheet_Example-dummy.m */; };
 		CB194156C900B767B0160AF72EDF354D /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141BC33167429B9926FB24A17F01568C /* ConstraintMaker.swift */; };
 		CB8E4BF0D710970BE2CB4C87ED1043E4 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724FB64349F5678CE1709979CF0DD952 /* ConstraintMakerRelatable.swift */; };
 		CCA22C9F421C9E8C13009947816D8C82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CF6D6BED77E6673E3D8F753967928945 /* DAOBottomSheet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0A096BF7A3A8F5809A279B9128715F /* DAOBottomSheet-dummy.m */; };
 		D13D417B236E736EEAE7217B5CE3EC5C /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D02329E74D733C03BF6BAE1F564481 /* ConstraintMakerFinalizable.swift */; };
+		D462687EA4FD438AA74723D745E77F52 /* GrabberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CD70BA232A654268AE3A12148FFDA7 /* GrabberView.swift */; };
 		D59C2826AD288ECFF576B2AFA312716C /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25479F58B67AA43E092C7B156C1B5C1B /* ConstraintRelation.swift */; };
-		DFDEB938C63C1AB5546418B1BC3A863B /* DAOBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576523C2EB00500E46A479EA0369F35A /* DAOBottomSheet.swift */; };
+		DC35A423E49FB3FF64FC77AA5DF43BA0 /* DAOBottomSheetDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A007E8A2259FE66DDCB6D76154D246 /* DAOBottomSheetDelegate.swift */; };
 		E36244E8BF4AC941E82DAF16DDF4BBC2 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9716AD15FADF38A93170E034F2BCE457 /* ConstraintPriorityTarget.swift */; };
-		E6849544FD7639A36A7A0238B2BA2B1C /* DAOBottomSheetDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908E361B4623D4F4915F64179D40B1CD /* DAOBottomSheetDelegate.swift */; };
+		E69650CDB3F36E155FAE19A992C93FA0 /* DAOBottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0056B9A0A5986670ED3E4CEEEEFE01D /* DAOBottomSheetViewController.swift */; };
 		E8EAADACF3BAE33BDECBC7214EAE9CD2 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2975CA5A0D26BC84F3EE9912FEBDA795 /* ConstraintRelatableTarget.swift */; };
 		EE6C364198A763EBBF49237035D86439 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C5188AE61F0E667CD9E7ED28CDD61C /* ConstraintLayoutGuide.swift */; };
 		F10586462FB54CEA169A1A7A469A926D /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = D038D2FAA2F6B073D1B64B8635F4E3E6 /* Debugging.swift */; };
 		F24D06C23DAB2F52A30C886A7A8177C7 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51E99894F75F00A281BE6A32FBDE495 /* ConstraintView.swift */; };
 		F2C817C166B2DE613222C41015A586C9 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A53CAF547D71AEFABE49D91B4E6816 /* ConstraintMakerPriortizable.swift */; };
 		F343BA4E457FFDB0165492AECAEF0BCC /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BD95F32F2E57D6B9100B77B93F013C /* ConstraintPriority.swift */; };
-		F645A9E67B74B156E0DA4061CCF3CEE7 /* DAOBottomSheetNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4700EF88FDD4C5E8A9E85F8458A11DBB /* DAOBottomSheetNavigationController.swift */; };
-		F8B87E83F137B8B467569B889C713DDB /* DAOBottomSheet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A709750BB81A0D73AEC1F1077524D3 /* DAOBottomSheet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1E026BFB2ADE0A03A40DC76340FE197F /* PBXContainerItemProxy */ = {
+		3C6211B812F4ECFBB886098B73450908 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6AA5A3CFAEF2B48EE45F4CCB932D0C2A;
 			remoteInfo = "Pods-DAOBottomSheet_Example";
 		};
-		5A5B88E1A6D621B1267F3F9F05B4AC88 /* PBXContainerItemProxy */ = {
+		58A2A56EC3551307D3AAA438636F6BF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
+			remoteInfo = SnapKit;
+		};
+		6AE2AC6F720043E3706F2459C6B432EB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 49646E36396F84E1B32CA478B66D0421;
 			remoteInfo = "DAOBottomSheet-DAOBottomSheet";
 		};
-		949809A6947A53FF4F1B79C153793E05 /* PBXContainerItemProxy */ = {
+		A24AC38C3CD00F52FF8F5377B1324A57 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 778609C90A293D8D2033A3ECE1FE9292;
 			remoteInfo = DAOBottomSheet;
-		};
-		AE64F5DFF85E803AA640BD9BD4019065 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
-			remoteInfo = SnapKit;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -105,77 +105,77 @@
 		0116B84A6773B75FCBFCB479E740F0F3 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
 		09BF299D2EEB87E7DD02630E87B96224 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
 		11D02329E74D733C03BF6BAE1F564481 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		12F9E88AB9F8C7CE85186B3468342468 /* DAOBottomSheet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DAOBottomSheet-prefix.pch"; sourceTree = "<group>"; };
 		134FE1764F4B2A0A63A52274D9E09B4E /* Pods-DAOBottomSheet_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DAOBottomSheet_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		137386E37CAA8BDFF8D9BDE637DEC821 /* DAOBottomSheet-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DAOBottomSheet-Info.plist"; sourceTree = "<group>"; };
 		13F460233F2A555D41511B6CCA66A124 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
 		141BC33167429B9926FB24A17F01568C /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
-		1CDA35212C7F1DC2001FF654 /* DAOResources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DAOResources.swift; sourceTree = "<group>"; };
-		1CDA35252C7F2605001FF654 /* DAOBottomSheet.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; name = DAOBottomSheet.docc; path = ../../../../DAOBottomSheet/Classes/DAOBottomSheet.docc; sourceTree = "<group>"; };
-		22D76611C5B9F564F4524A5BA143E3DA /* SeparatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SeparatorView.swift; sourceTree = "<group>"; };
-		24A77B0EA52883CA7F9434CF4246B864 /* DAOTypography.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DAOTypography.swift; sourceTree = "<group>"; };
+		1892E267037011260039C20A37D00CCC /* DAOBottomSheet.docc */ = {isa = PBXFileReference; includeInIndex = 1; name = DAOBottomSheet.docc; path = DAOBottomSheet/Classes/DAOBottomSheet.docc; sourceTree = "<group>"; };
+		249E478D60F66631CF73DE23AE9A017E /* DAOBottomSheet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DAOBottomSheet-umbrella.h"; sourceTree = "<group>"; };
 		250E41DBB680A3A2ECDDD2210311B230 /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
 		25479F58B67AA43E092C7B156C1B5C1B /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
 		2975CA5A0D26BC84F3EE9912FEBDA795 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		30F3D6A6CA77ECD06523E1554BFB85A0 /* DAOBottomSheet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DAOBottomSheet.release.xcconfig; sourceTree = "<group>"; };
 		316251A581DB78096AAD548054B2A2CE /* Pods-DAOBottomSheet_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DAOBottomSheet_Example-umbrella.h"; sourceTree = "<group>"; };
-		3860F5DBC73DFB459833170FAF192B16 /* GrabberView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GrabberView.swift; sourceTree = "<group>"; };
+		32CD70BA232A654268AE3A12148FFDA7 /* GrabberView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GrabberView.swift; sourceTree = "<group>"; };
 		391A6F8B42D2CD885F8F3C4CE6859439 /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
 		3D0F20C317D2A6A9FA90DA0ADC36CC8D /* Pods-DAOBottomSheet_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DAOBottomSheet_Example"; path = Pods_DAOBottomSheet_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D705690D879064ED84970813189D8D4 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
-		3F9A74F459F8B3570F2AD6ED2E053933 /* DAOBottomSheet.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DAOBottomSheet.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		408B3A89F6C096BE50B4B30E5826C278 /* DAOBottomSheetFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DAOBottomSheetFooterView.swift; sourceTree = "<group>"; };
-		45F1A41090B6E46E6771CBAD3A272D6B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		42EE0AAB21191C863C847C6FDD235CED /* Icons.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Icons.xcassets; path = DAOBottomSheet/Assets/Icons.xcassets; sourceTree = "<group>"; };
+		44D3A9E0506E79D43A0145469D159DEB /* DAOBottomSheet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DAOBottomSheet.modulemap; sourceTree = "<group>"; };
+		45EF74F1EB794CC3D33E2E0F9E9CDE2E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		464C01543F3BCEDEE51ABAA696513D0B /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
-		4700EF88FDD4C5E8A9E85F8458A11DBB /* DAOBottomSheetNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DAOBottomSheetNavigationController.swift; sourceTree = "<group>"; };
 		474AFC560A8B414B467174737DBC891A /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
 		47B200BD964F52F6693D4168248B8645 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
 		49349E8A27469C0131A89155CD39109C /* Pods-DAOBottomSheet_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DAOBottomSheet_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		49A709750BB81A0D73AEC1F1077524D3 /* DAOBottomSheet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DAOBottomSheet-umbrella.h"; sourceTree = "<group>"; };
 		4E20F48D68AF7F169E8D1C6CA044CF23 /* Pods-DAOBottomSheet_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DAOBottomSheet_Tests-umbrella.h"; sourceTree = "<group>"; };
-		50097D6F442B044C5717DBAEE768DDDA /* DAOBottomSheetViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DAOBottomSheetViewController.swift; sourceTree = "<group>"; };
+		4EDBAB211D3CBC696C95D5B7564793F5 /* DAOBottomSheetFooterViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DAOBottomSheetFooterViewDelegate.swift; sourceTree = "<group>"; };
 		50380F281EC3EE769C85035CCEA77226 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
 		5091DADA20071B6EDA80C12B2F60B6C9 /* Pods-DAOBottomSheet_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DAOBottomSheet_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		549471CD1FE3A1E1865DD172864918D3 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
 		56006AA49A060CA2830F32CD6F394823 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
 		571A6633B16CBDBA8AF0CFF96AF3F5EA /* Pods-DAOBottomSheet_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DAOBottomSheet_Tests.modulemap"; sourceTree = "<group>"; };
-		576523C2EB00500E46A479EA0369F35A /* DAOBottomSheet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DAOBottomSheet.swift; path = DAOBottomSheet/Classes/DAOBottomSheet.swift; sourceTree = "<group>"; };
 		5958ADF9060284E2928DFCCCB23E688F /* Pods-DAOBottomSheet_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DAOBottomSheet_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		60C4E7690F98028F2048B65B2BCA1304 /* Pods-DAOBottomSheet_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DAOBottomSheet_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		625BBE1D97769C135DED446B02AAB343 /* DAOBottomSheet-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DAOBottomSheet-Info.plist"; sourceTree = "<group>"; };
 		66C5188AE61F0E667CD9E7ED28CDD61C /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
 		6937DF0D305BDD802E89F9261A7D07ED /* Pods-DAOBottomSheet_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DAOBottomSheet_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6A9341666EAC154422A032092A7DC2D7 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
 		6D990E0FED5B41C1F13AC6B08208A99B /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
 		724FB64349F5678CE1709979CF0DD952 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		77EE80A4FC502A64BB57F276B35EDDAA /* ResourceBundle-DAOBottomSheet-DAOBottomSheet-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DAOBottomSheet-DAOBottomSheet-Info.plist"; sourceTree = "<group>"; };
 		7889131C1139F96BBDA94CEE2E694763 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
 		7AE00ECC24C5CC6DC938204FF42AD0E5 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
 		7C21E0C93A1141A1E2EB51575500E27D /* SnapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.debug.xcconfig; sourceTree = "<group>"; };
 		7C2EC377264B25FB0E67D150E37E87CD /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		81B5393AADD0C5C93FF432A71FB2E259 /* DAOTypography.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DAOTypography.swift; sourceTree = "<group>"; };
+		83353918433EF313537D3F91A126AFE2 /* DAOBottomSheetNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DAOBottomSheetNavigationController.swift; sourceTree = "<group>"; };
+		85A007E8A2259FE66DDCB6D76154D246 /* DAOBottomSheetDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DAOBottomSheetDelegate.swift; sourceTree = "<group>"; };
 		8840D16506E50C23EDF726CA38B506AC /* DAOBottomSheet-DAOBottomSheet */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "DAOBottomSheet-DAOBottomSheet"; path = DAOBottomSheet.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B03BF75E347F66B797BF412279565C0 /* DAOBottomSheet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DAOBottomSheet-dummy.m"; sourceTree = "<group>"; };
-		908E361B4623D4F4915F64179D40B1CD /* DAOBottomSheetDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DAOBottomSheetDelegate.swift; sourceTree = "<group>"; };
+		897C4B8305FA01444767A9F121F392D6 /* ResourceBundle-DAOBottomSheet-DAOBottomSheet-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DAOBottomSheet-DAOBottomSheet-Info.plist"; sourceTree = "<group>"; };
 		91164BE769DA144776663FBF46785561 /* ConstraintDirectionalInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsets.swift; path = Source/ConstraintDirectionalInsets.swift; sourceTree = "<group>"; };
 		91A53CAF547D71AEFABE49D91B4E6816 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
 		9716AD15FADF38A93170E034F2BCE457 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
 		979486118B3E90C08386079D57962701 /* SnapKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97A0AFEC25C26CD0763B54FB7526CE4F /* Pods-DAOBottomSheet_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DAOBottomSheet_Tests"; path = Pods_DAOBottomSheet_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DE5E40A5B31175F69FFAC22454B58B3 /* DAOBottomSheet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DAOBottomSheet.release.xcconfig; sourceTree = "<group>"; };
-		9F42DA8A69093D13C95343A3A903D5CB /* DAOBottomSheetFooterViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DAOBottomSheetFooterViewDelegate.swift; sourceTree = "<group>"; };
+		9CD1FB418E237D6E0427BD96F4FF337D /* DAOBottomSheetFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DAOBottomSheetFooterView.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1CD432F32277BB93DEAADA626ECEC5B /* SnapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.release.xcconfig; sourceTree = "<group>"; };
-		A256E22094DC778D1758A361357D0843 /* Icons.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Icons.xcassets; path = DAOBottomSheet/Assets/Icons.xcassets; sourceTree = "<group>"; };
 		A51E99894F75F00A281BE6A32FBDE495 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
 		A7D358AA1606C7B2CDC8555485807E9E /* ConstraintDirectionalInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsetTarget.swift; path = Source/ConstraintDirectionalInsetTarget.swift; sourceTree = "<group>"; };
+		AC7677F8E03445D45D2A02B0BF62AC78 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B0056B9A0A5986670ED3E4CEEEEFE01D /* DAOBottomSheetViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DAOBottomSheetViewController.swift; sourceTree = "<group>"; };
+		B110276B2D919E16BF5DB359BF7F9667 /* SeparatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SeparatorView.swift; sourceTree = "<group>"; };
+		B2E732599F716866AC60BBE0DED1A9B7 /* DAOBottomSheet.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DAOBottomSheet.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B47021230A13A125952E1FF1C1CFB8D6 /* Pods-DAOBottomSheet_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DAOBottomSheet_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BDB70EC4AB0862940B8DE44652F176CA /* DAOResources.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DAOResources.swift; sourceTree = "<group>"; };
 		BE0BE9F3D55FDB29EF516F6D6B1B6BCA /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
 		BEBE571EBD3CEFB6E6C1552E48EFD19D /* Pods-DAOBottomSheet_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DAOBottomSheet_Example.modulemap"; sourceTree = "<group>"; };
 		C4A46A8054577838D49C60142EB88B13 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		C50550F72BE914201C2DE4E347C8E4E9 /* DAOBottomSheet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DAOBottomSheet.swift; path = DAOBottomSheet/Classes/DAOBottomSheet.swift; sourceTree = "<group>"; };
 		CB1D9F6F4E2364DFAF158E04AF5D5EAA /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
 		CB6E13C7EA35A60DBFC523A59E7EFA6E /* Pods-DAOBottomSheet_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DAOBottomSheet_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CC2F40EBBF7EBC8282EF9588022039C2 /* Pods-DAOBottomSheet_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DAOBottomSheet_Tests-Info.plist"; sourceTree = "<group>"; };
-		D0018A0B662E2050128AB2CA5DBB5070 /* DAOBottomSheet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DAOBottomSheet-prefix.pch"; sourceTree = "<group>"; };
 		D038D2FAA2F6B073D1B64B8635F4E3E6 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
-		D1F91B2D6D86EFE738ACB7AFC32A4923 /* DAOBottomSheet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DAOBottomSheet.debug.xcconfig; sourceTree = "<group>"; };
 		D4E066869A95E00B949CBA4D2284C35F /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
 		E13B89FFD81AACB7530769CA05EEA26B /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
 		E14A09DC3AD8CA84464FEC37F0FC99D1 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
@@ -183,19 +183,19 @@
 		E2FBA2DFCCA98C6CBB0DE666072D08F1 /* Pods-DAOBottomSheet_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DAOBottomSheet_Example-Info.plist"; sourceTree = "<group>"; };
 		E43F10DE451FED17810D9B5C237324A5 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
 		E7CA32372D187971909D6E2558B44785 /* Pods-DAOBottomSheet_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DAOBottomSheet_Example-dummy.m"; sourceTree = "<group>"; };
-		EB968BDAAAFCBFFB392755ECBFE8C967 /* DAOBottomSheet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DAOBottomSheet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED960218E27F4F60437B19236156DD90 /* DAOBottomSheet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DAOBottomSheet.modulemap; sourceTree = "<group>"; };
+		EB968BDAAAFCBFFB392755ECBFE8C967 /* DAOBottomSheet */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DAOBottomSheet; path = DAOBottomSheet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDDF75CAA9B330EA3A674C5A8DF11905 /* Pods-DAOBottomSheet_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DAOBottomSheet_Tests-dummy.m"; sourceTree = "<group>"; };
+		EDF4E1F9085D4B8C1D6CA57D9C89D983 /* DAOBottomSheet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DAOBottomSheet.debug.xcconfig; sourceTree = "<group>"; };
 		EE9055CEA7890517265589BD23D73A49 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
 		F0BD95F32F2E57D6B9100B77B93F013C /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
 		F44C5B72775F6AF0891BF331F32FE10D /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
 		F7AB9BB47A2175181386A432C07253AE /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
 		F8D0BADEB1A0215DE62E902E3A30E8D8 /* Pods-DAOBottomSheet_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DAOBottomSheet_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FFE2A0CB758AEE2EFAA22D26DFA75E99 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FB0A096BF7A3A8F5809A279B9128715F /* DAOBottomSheet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DAOBottomSheet-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		04FE90A50A9DD38E6571900583C56B54 /* Frameworks */ = {
+		4B4163D6945F4DFEC80AFE4D39477F70 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -226,11 +226,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF7A7012DCF4AE92B2FC5ACE25829F8D /* Frameworks */ = {
+		F8417D2EF219AB3F4B241F3F35FA156A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A22AE7C9D76FBB4D93381B794377D374 /* Foundation.framework in Frameworks */,
+				C11FAF8C9CE07A5485DCD91834606371 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,19 +246,20 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		1D99B1C734B68597C14053A9E911A663 /* DAOBottomSheet */ = {
+		15AE9E09D8310DBE02C949AAF4E9801D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				576523C2EB00500E46A479EA0369F35A /* DAOBottomSheet.swift */,
-				A256E22094DC778D1758A361357D0843 /* Icons.xcassets */,
-				EB20D94124B3B9A2CBD467146E34A593 /* Controllers */,
-				535133C7D1FD0E32F4790EFCBE8DBAC8 /* Footer */,
-				AF0DD78F0D622837F44F6C0E5BBB125C /* General */,
-				A6A96511F6F8B5C646478422FFD9B5AF /* Pod */,
-				7D1694F7BCBFF21238D3A87BC40DEFFB /* Support Files */,
+				44D3A9E0506E79D43A0145469D159DEB /* DAOBottomSheet.modulemap */,
+				FB0A096BF7A3A8F5809A279B9128715F /* DAOBottomSheet-dummy.m */,
+				625BBE1D97769C135DED446B02AAB343 /* DAOBottomSheet-Info.plist */,
+				12F9E88AB9F8C7CE85186B3468342468 /* DAOBottomSheet-prefix.pch */,
+				249E478D60F66631CF73DE23AE9A017E /* DAOBottomSheet-umbrella.h */,
+				EDF4E1F9085D4B8C1D6CA57D9C89D983 /* DAOBottomSheet.debug.xcconfig */,
+				30F3D6A6CA77ECD06523E1554BFB85A0 /* DAOBottomSheet.release.xcconfig */,
+				897C4B8305FA01444767A9F121F392D6 /* ResourceBundle-DAOBottomSheet-DAOBottomSheet-Info.plist */,
 			);
-			name = DAOBottomSheet;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DAOBottomSheet";
 			sourceTree = "<group>";
 		};
 		290DB5C8F2B174985B6EC84DB30DEC67 /* Pods-DAOBottomSheet_Example */ = {
@@ -278,14 +279,12 @@
 			path = "Target Support Files/Pods-DAOBottomSheet_Example";
 			sourceTree = "<group>";
 		};
-		535133C7D1FD0E32F4790EFCBE8DBAC8 /* Footer */ = {
+		3A108E3B9D43E613E0A9DC63C6AA6D10 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				408B3A89F6C096BE50B4B30E5826C278 /* DAOBottomSheetFooterView.swift */,
-				9F42DA8A69093D13C95343A3A903D5CB /* DAOBottomSheetFooterViewDelegate.swift */,
+				DF1DA0558D8B27E434D57655B67FE72B /* DAOBottomSheet */,
 			);
-			name = Footer;
-			path = DAOBottomSheet/Classes/Footer;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -299,30 +298,13 @@
 		67C30C73287E49AB81C9CFFCCEFBA81C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EB968BDAAAFCBFFB392755ECBFE8C967 /* DAOBottomSheet.framework */,
+				EB968BDAAAFCBFFB392755ECBFE8C967 /* DAOBottomSheet */,
 				8840D16506E50C23EDF726CA38B506AC /* DAOBottomSheet-DAOBottomSheet */,
 				3D0F20C317D2A6A9FA90DA0ADC36CC8D /* Pods-DAOBottomSheet_Example */,
 				97A0AFEC25C26CD0763B54FB7526CE4F /* Pods-DAOBottomSheet_Tests */,
 				979486118B3E90C08386079D57962701 /* SnapKit */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		7D1694F7BCBFF21238D3A87BC40DEFFB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1CDA35252C7F2605001FF654 /* DAOBottomSheet.docc */,
-				ED960218E27F4F60437B19236156DD90 /* DAOBottomSheet.modulemap */,
-				8B03BF75E347F66B797BF412279565C0 /* DAOBottomSheet-dummy.m */,
-				137386E37CAA8BDFF8D9BDE637DEC821 /* DAOBottomSheet-Info.plist */,
-				D0018A0B662E2050128AB2CA5DBB5070 /* DAOBottomSheet-prefix.pch */,
-				49A709750BB81A0D73AEC1F1077524D3 /* DAOBottomSheet-umbrella.h */,
-				D1F91B2D6D86EFE738ACB7AFC32A4923 /* DAOBottomSheet.debug.xcconfig */,
-				9DE5E40A5B31175F69FFAC22454B58B3 /* DAOBottomSheet.release.xcconfig */,
-				77EE80A4FC502A64BB57F276B35EDDAA /* ResourceBundle-DAOBottomSheet-DAOBottomSheet-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DAOBottomSheet";
 			sourceTree = "<group>";
 		};
 		7F02E3862C6E84203E8324D9D0088797 /* SnapKit */ = {
@@ -366,6 +348,7 @@
 				6A9341666EAC154422A032092A7DC2D7 /* UILayoutSupport+Extensions.swift */,
 				843EFF0C650682C304D518A9092EE9FD /* Support Files */,
 			);
+			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
@@ -400,26 +383,26 @@
 			path = "Target Support Files/Pods-DAOBottomSheet_Tests";
 			sourceTree = "<group>";
 		};
-		A6A96511F6F8B5C646478422FFD9B5AF /* Pod */ = {
+		8EEC084575E102F1F84A8577B5D18A7C /* General */ = {
 			isa = PBXGroup;
 			children = (
-				3F9A74F459F8B3570F2AD6ED2E053933 /* DAOBottomSheet.podspec */,
-				FFE2A0CB758AEE2EFAA22D26DFA75E99 /* LICENSE */,
-				45F1A41090B6E46E6771CBAD3A272D6B /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		AF0DD78F0D622837F44F6C0E5BBB125C /* General */ = {
-			isa = PBXGroup;
-			children = (
-				1CDA35212C7F1DC2001FF654 /* DAOResources.swift */,
-				24A77B0EA52883CA7F9434CF4246B864 /* DAOTypography.swift */,
-				3860F5DBC73DFB459833170FAF192B16 /* GrabberView.swift */,
-				22D76611C5B9F564F4524A5BA143E3DA /* SeparatorView.swift */,
+				BDB70EC4AB0862940B8DE44652F176CA /* DAOResources.swift */,
+				81B5393AADD0C5C93FF432A71FB2E259 /* DAOTypography.swift */,
+				32CD70BA232A654268AE3A12148FFDA7 /* GrabberView.swift */,
+				B110276B2D919E16BF5DB359BF7F9667 /* SeparatorView.swift */,
 			);
 			name = General;
 			path = DAOBottomSheet/Classes/General;
+			sourceTree = "<group>";
+		};
+		A66AE5004408099BBA72292B5D233FBC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B2E732599F716866AC60BBE0DED1A9B7 /* DAOBottomSheet.podspec */,
+				45EF74F1EB794CC3D33E2E0F9E9CDE2E /* LICENSE */,
+				AC7677F8E03445D45D2A02B0BF62AC78 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		BA22F08D059965C9A09F78196176CEDB /* Pods */ = {
@@ -434,7 +417,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				DF357D87603ACCFAB30AAB3599E9C8E6 /* Development Pods */,
+				3A108E3B9D43E613E0A9DC63C6AA6D10 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				BA22F08D059965C9A09F78196176CEDB /* Pods */,
 				67C30C73287E49AB81C9CFFCCEFBA81C /* Products */,
@@ -450,23 +433,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DF357D87603ACCFAB30AAB3599E9C8E6 /* Development Pods */ = {
+		DF1DA0558D8B27E434D57655B67FE72B /* DAOBottomSheet */ = {
 			isa = PBXGroup;
 			children = (
-				1D99B1C734B68597C14053A9E911A663 /* DAOBottomSheet */,
+				1892E267037011260039C20A37D00CCC /* DAOBottomSheet.docc */,
+				C50550F72BE914201C2DE4E347C8E4E9 /* DAOBottomSheet.swift */,
+				42EE0AAB21191C863C847C6FDD235CED /* Icons.xcassets */,
+				E6786B8C062A28218884A2D17B98232D /* Controllers */,
+				ED9F1847930168D71A86D4ACB254F11F /* Footer */,
+				8EEC084575E102F1F84A8577B5D18A7C /* General */,
+				A66AE5004408099BBA72292B5D233FBC /* Pod */,
+				15AE9E09D8310DBE02C949AAF4E9801D /* Support Files */,
 			);
-			name = "Development Pods";
+			name = DAOBottomSheet;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		EB20D94124B3B9A2CBD467146E34A593 /* Controllers */ = {
+		E6786B8C062A28218884A2D17B98232D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				908E361B4623D4F4915F64179D40B1CD /* DAOBottomSheetDelegate.swift */,
-				4700EF88FDD4C5E8A9E85F8458A11DBB /* DAOBottomSheetNavigationController.swift */,
-				50097D6F442B044C5717DBAEE768DDDA /* DAOBottomSheetViewController.swift */,
+				85A007E8A2259FE66DDCB6D76154D246 /* DAOBottomSheetDelegate.swift */,
+				83353918433EF313537D3F91A126AFE2 /* DAOBottomSheetNavigationController.swift */,
+				B0056B9A0A5986670ED3E4CEEEEFE01D /* DAOBottomSheetViewController.swift */,
 			);
 			name = Controllers;
 			path = DAOBottomSheet/Classes/Controllers;
+			sourceTree = "<group>";
+		};
+		ED9F1847930168D71A86D4ACB254F11F /* Footer */ = {
+			isa = PBXGroup;
+			children = (
+				9CD1FB418E237D6E0427BD96F4FF337D /* DAOBottomSheetFooterView.swift */,
+				4EDBAB211D3CBC696C95D5B7564793F5 /* DAOBottomSheetFooterViewDelegate.swift */,
+			);
+			name = Footer;
+			path = DAOBottomSheet/Classes/Footer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -477,14 +478,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8211AE63E64D004CEE0CA74D841960E6 /* Pods-DAOBottomSheet_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		31297F7C7A3291772A8C8B761179EF07 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F8B87E83F137B8B467569B889C713DDB /* DAOBottomSheet-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +494,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A108FED23C1C8545F604B9FE8F090190 /* Pods-DAOBottomSheet_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE4D4F69F34A781E456966AAD98318F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4CEC7FD18900D789FBEB84C075D6EA0 /* DAOBottomSheet-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,11 +528,11 @@
 		};
 		49646E36396F84E1B32CA478B66D0421 /* DAOBottomSheet-DAOBottomSheet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF9F5EEAC8FE3AE10A98907DF417D7DD /* Build configuration list for PBXNativeTarget "DAOBottomSheet-DAOBottomSheet" */;
+			buildConfigurationList = 846CE1D789F6A0E7766A26C81823FDB3 /* Build configuration list for PBXNativeTarget "DAOBottomSheet-DAOBottomSheet" */;
 			buildPhases = (
-				B42983573D7C1C70B8E1CD757A92D0BD /* Sources */,
-				04FE90A50A9DD38E6571900583C56B54 /* Frameworks */,
-				80AF5BA9376C58444BA147BE64F87EDC /* Resources */,
+				53A601267D4B0100B748951764DBB716 /* Sources */,
+				4B4163D6945F4DFEC80AFE4D39477F70 /* Frameworks */,
+				D98D0FD2B0552F6876AB3D681790A73C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -554,8 +555,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				4192E4258BB050DD2F6689A0E2915CC7 /* PBXTargetDependency */,
-				E0F546FB29C43F6AD4D45BEE734DEE7F /* PBXTargetDependency */,
+				25C49ADD82352C9ED921546508BAA028 /* PBXTargetDependency */,
+				13D5895A83F54C697CF0242A07B757C3 /* PBXTargetDependency */,
 			);
 			name = "Pods-DAOBottomSheet_Example";
 			productName = Pods_DAOBottomSheet_Example;
@@ -564,21 +565,21 @@
 		};
 		778609C90A293D8D2033A3ECE1FE9292 /* DAOBottomSheet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0925B10A2D42569E216D09CB4AB16DD2 /* Build configuration list for PBXNativeTarget "DAOBottomSheet" */;
+			buildConfigurationList = E44453D850B7A444B57CA9E4F6791069 /* Build configuration list for PBXNativeTarget "DAOBottomSheet" */;
 			buildPhases = (
-				31297F7C7A3291772A8C8B761179EF07 /* Headers */,
-				E508BFD9978311C8DEC02737EC844793 /* Sources */,
-				FF7A7012DCF4AE92B2FC5ACE25829F8D /* Frameworks */,
-				5F962C444670AE2213B2184788F4AF93 /* Resources */,
+				FDE4D4F69F34A781E456966AAD98318F /* Headers */,
+				47840531F89B69875DD4D757762236B4 /* Sources */,
+				F8417D2EF219AB3F4B241F3F35FA156A /* Frameworks */,
+				B33EC9663CAB55F904C2D096438BF76D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1C95AA93660618FD192A0C06255BF0C8 /* PBXTargetDependency */,
+				FDB83372BBDF042FED491E3B43971EBF /* PBXTargetDependency */,
 			);
 			name = DAOBottomSheet;
 			productName = DAOBottomSheet;
-			productReference = EB968BDAAAFCBFFB392755ECBFE8C967 /* DAOBottomSheet.framework */;
+			productReference = EB968BDAAAFCBFFB392755ECBFE8C967 /* DAOBottomSheet */;
 			productType = "com.apple.product-type.framework";
 		};
 		D58C6AD0DCA4697EA1AA4D3D1E0C015C /* Pods-DAOBottomSheet_Tests */ = {
@@ -593,7 +594,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				42D8F2E41BA159B310A17B43C8931BE5 /* PBXTargetDependency */,
+				44089595B8B145107D7A5B82367A7C74 /* PBXTargetDependency */,
 			);
 			name = "Pods-DAOBottomSheet_Tests";
 			productName = Pods_DAOBottomSheet_Tests;
@@ -618,6 +619,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
 			productRefGroup = 67C30C73287E49AB81C9CFFCCEFBA81C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -639,26 +641,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F962C444670AE2213B2184788F4AF93 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8308EFB151DDF5FA8F8408148C9AD152 /* DAOBottomSheet-DAOBottomSheet in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80AF5BA9376C58444BA147BE64F87EDC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9193CEE74DA4104E6E0F33E4AFDF9C4A /* Icons.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B07CB5537D64CE334E3462EB4C571FBE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B33EC9663CAB55F904C2D096438BF76D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BEEC532E49A8040DE0049B9F77649B /* DAOBottomSheet-DAOBottomSheet in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98D0FD2B0552F6876AB3D681790A73C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940625007DD6A33ABE255352296057EE /* Icons.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -716,18 +718,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		47840531F89B69875DD4D757762236B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C15793CFF765FF8845C2E975792BF927 /* DAOBottomSheet.docc in Sources */,
+				B1B5CED3641C150983685C68D51DA0C6 /* DAOBottomSheet.swift in Sources */,
+				CF6D6BED77E6673E3D8F753967928945 /* DAOBottomSheet-dummy.m in Sources */,
+				DC35A423E49FB3FF64FC77AA5DF43BA0 /* DAOBottomSheetDelegate.swift in Sources */,
+				103E5D48BED7797207CA9DB7B9A5C59D /* DAOBottomSheetFooterView.swift in Sources */,
+				2DA57A6959EC990FB7A263D046CA7B48 /* DAOBottomSheetFooterViewDelegate.swift in Sources */,
+				ADEA23E12E1DCAD1F2C6070C4A316BB7 /* DAOBottomSheetNavigationController.swift in Sources */,
+				E69650CDB3F36E155FAE19A992C93FA0 /* DAOBottomSheetViewController.swift in Sources */,
+				53FCC806904420CA64D95805DA2CC316 /* DAOResources.swift in Sources */,
+				824C2C8E85D0A3C20AFF92E0722B011A /* DAOTypography.swift in Sources */,
+				D462687EA4FD438AA74723D745E77F52 /* GrabberView.swift in Sources */,
+				6C749CA70A55CA13CACEF71CF07483BF /* SeparatorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53A601267D4B0100B748951764DBB716 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		85210DADF316B279791D8DD9EB271CA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CA03D3AB400CC86BD3BEE60AAEC4BEE2 /* Pods-DAOBottomSheet_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B42983573D7C1C70B8E1CD757A92D0BD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -739,55 +760,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E508BFD9978311C8DEC02737EC844793 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1CDA35262C7F2605001FF654 /* DAOBottomSheet.docc in Sources */,
-				DFDEB938C63C1AB5546418B1BC3A863B /* DAOBottomSheet.swift in Sources */,
-				87150FC36B22FF9BCEEFD2770EB794E0 /* DAOBottomSheet-dummy.m in Sources */,
-				E6849544FD7639A36A7A0238B2BA2B1C /* DAOBottomSheetDelegate.swift in Sources */,
-				47A3668F3F57647E266C208B064CF119 /* DAOBottomSheetFooterView.swift in Sources */,
-				1CDA35222C7F1DC2001FF654 /* DAOResources.swift in Sources */,
-				47BDD285AB093FCD7DBB313BD02785CE /* DAOBottomSheetFooterViewDelegate.swift in Sources */,
-				F645A9E67B74B156E0DA4061CCF3CEE7 /* DAOBottomSheetNavigationController.swift in Sources */,
-				061E89159F74A7D08D7FB2CA5ECC88DD /* DAOBottomSheetViewController.swift in Sources */,
-				521F8A2249C5DA079760BD00430C335E /* DAOTypography.swift in Sources */,
-				4AD7601E0D6055FBF4485B856139141A /* GrabberView.swift in Sources */,
-				86B548373B99EDBA18A3BEBAEBE430E2 /* SeparatorView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1C95AA93660618FD192A0C06255BF0C8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "DAOBottomSheet-DAOBottomSheet";
-			target = 49646E36396F84E1B32CA478B66D0421 /* DAOBottomSheet-DAOBottomSheet */;
-			targetProxy = 5A5B88E1A6D621B1267F3F9F05B4AC88 /* PBXContainerItemProxy */;
-		};
-		4192E4258BB050DD2F6689A0E2915CC7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DAOBottomSheet;
-			target = 778609C90A293D8D2033A3ECE1FE9292 /* DAOBottomSheet */;
-			targetProxy = 949809A6947A53FF4F1B79C153793E05 /* PBXContainerItemProxy */;
-		};
-		42D8F2E41BA159B310A17B43C8931BE5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-DAOBottomSheet_Example";
-			target = 6AA5A3CFAEF2B48EE45F4CCB932D0C2A /* Pods-DAOBottomSheet_Example */;
-			targetProxy = 1E026BFB2ADE0A03A40DC76340FE197F /* PBXContainerItemProxy */;
-		};
-		E0F546FB29C43F6AD4D45BEE734DEE7F /* PBXTargetDependency */ = {
+		13D5895A83F54C697CF0242A07B757C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SnapKit;
 			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
-			targetProxy = AE64F5DFF85E803AA640BD9BD4019065 /* PBXContainerItemProxy */;
+			targetProxy = 58A2A56EC3551307D3AAA438636F6BF6 /* PBXContainerItemProxy */;
+		};
+		25C49ADD82352C9ED921546508BAA028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DAOBottomSheet;
+			target = 778609C90A293D8D2033A3ECE1FE9292 /* DAOBottomSheet */;
+			targetProxy = A24AC38C3CD00F52FF8F5377B1324A57 /* PBXContainerItemProxy */;
+		};
+		44089595B8B145107D7A5B82367A7C74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DAOBottomSheet_Example";
+			target = 6AA5A3CFAEF2B48EE45F4CCB932D0C2A /* Pods-DAOBottomSheet_Example */;
+			targetProxy = 3C6211B812F4ECFBB886098B73450908 /* PBXContainerItemProxy */;
+		};
+		FDB83372BBDF042FED491E3B43971EBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DAOBottomSheet-DAOBottomSheet";
+			target = 49646E36396F84E1B32CA478B66D0421 /* DAOBottomSheet-DAOBottomSheet */;
+			targetProxy = 6AE2AC6F720043E3706F2459C6B432EB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		096451CECE4DF5DA02232F4281AA10DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30F3D6A6CA77ECD06523E1554BFB85A0 /* DAOBottomSheet.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DAOBottomSheet";
+				IBSC_MODULE = DAOBottomSheet;
+				INFOPLIST_FILE = "Target Support Files/DAOBottomSheet/ResourceBundle-DAOBottomSheet-DAOBottomSheet-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_NAME = DAOBottomSheet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		18421B868051C6DB2CA3731BEB504F2F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F8D0BADEB1A0215DE62E902E3A30E8D8 /* Pods-DAOBottomSheet_Tests.release.xcconfig */;
@@ -888,37 +907,35 @@
 			};
 			name = Debug;
 		};
-		3A583E0E49FD59476821EE02948A5AAA /* Debug */ = {
+		2F8BB3CDFCDCC826D3A8306D1C4D1727 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1F91B2D6D86EFE738ACB7AFC32A4923 /* DAOBottomSheet.debug.xcconfig */;
+			baseConfigurationReference = 30F3D6A6CA77ECD06523E1554BFB85A0 /* DAOBottomSheet.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DAOBottomSheet";
-				IBSC_MODULE = DAOBottomSheet;
-				INFOPLIST_FILE = "Target Support Files/DAOBottomSheet/ResourceBundle-DAOBottomSheet-DAOBottomSheet-Info.plist";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DAOBottomSheet/DAOBottomSheet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DAOBottomSheet/DAOBottomSheet-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DAOBottomSheet/DAOBottomSheet.modulemap";
+				PRODUCT_MODULE_NAME = DAOBottomSheet;
 				PRODUCT_NAME = DAOBottomSheet;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		7A89EBCCBD36E3E1850CD6B3F15BFD92 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DE5E40A5B31175F69FFAC22454B58B3 /* DAOBottomSheet.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DAOBottomSheet";
-				IBSC_MODULE = DAOBottomSheet;
-				INFOPLIST_FILE = "Target Support Files/DAOBottomSheet/ResourceBundle-DAOBottomSheet-DAOBottomSheet-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				PRODUCT_NAME = DAOBottomSheet;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -977,7 +994,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1010,38 +1028,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C303629601780F8484F7DA4FBF526A68 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DE5E40A5B31175F69FFAC22454B58B3 /* DAOBottomSheet.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DAOBottomSheet/DAOBottomSheet-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DAOBottomSheet/DAOBottomSheet-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DAOBottomSheet/DAOBottomSheet.modulemap";
-				PRODUCT_MODULE_NAME = DAOBottomSheet;
-				PRODUCT_NAME = DAOBottomSheet;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1146,37 +1132,6 @@
 			};
 			name = Debug;
 		};
-		D7389A886F88264FDC0BE912B1AFAEB0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1F91B2D6D86EFE738ACB7AFC32A4923 /* DAOBottomSheet.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DAOBottomSheet/DAOBottomSheet-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DAOBottomSheet/DAOBottomSheet-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DAOBottomSheet/DAOBottomSheet.modulemap";
-				PRODUCT_MODULE_NAME = DAOBottomSheet;
-				PRODUCT_NAME = DAOBottomSheet;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		DFFD31690F9CC8449FD1F803388E1D46 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A1CD432F32277BB93DEAADA626ECEC5B /* SnapKit.release.xcconfig */;
@@ -1209,18 +1164,57 @@
 			};
 			name = Release;
 		};
+		EF17CD753006CF3671B6206E29DFEE25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDF4E1F9085D4B8C1D6CA57D9C89D983 /* DAOBottomSheet.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DAOBottomSheet/DAOBottomSheet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DAOBottomSheet/DAOBottomSheet-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DAOBottomSheet/DAOBottomSheet.modulemap";
+				PRODUCT_MODULE_NAME = DAOBottomSheet;
+				PRODUCT_NAME = DAOBottomSheet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA9F2A457EA369A5BC8FDEF12E092BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDF4E1F9085D4B8C1D6CA57D9C89D983 /* DAOBottomSheet.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DAOBottomSheet";
+				IBSC_MODULE = DAOBottomSheet;
+				INFOPLIST_FILE = "Target Support Files/DAOBottomSheet/ResourceBundle-DAOBottomSheet-DAOBottomSheet-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_NAME = DAOBottomSheet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0925B10A2D42569E216D09CB4AB16DD2 /* Build configuration list for PBXNativeTarget "DAOBottomSheet" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D7389A886F88264FDC0BE912B1AFAEB0 /* Debug */,
-				C303629601780F8484F7DA4FBF526A68 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1248,11 +1242,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF9F5EEAC8FE3AE10A98907DF417D7DD /* Build configuration list for PBXNativeTarget "DAOBottomSheet-DAOBottomSheet" */ = {
+		846CE1D789F6A0E7766A26C81823FDB3 /* Build configuration list for PBXNativeTarget "DAOBottomSheet-DAOBottomSheet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3A583E0E49FD59476821EE02948A5AAA /* Debug */,
-				7A89EBCCBD36E3E1850CD6B3F15BFD92 /* Release */,
+				FA9F2A457EA369A5BC8FDEF12E092BBD /* Debug */,
+				096451CECE4DF5DA02232F4281AA10DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E44453D850B7A444B57CA9E4F6791069 /* Build configuration list for PBXNativeTarget "DAOBottomSheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF17CD753006CF3671B6206E29DFEE25 /* Debug */,
+				2F8BB3CDFCDCC826D3A8306D1C4D1727 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

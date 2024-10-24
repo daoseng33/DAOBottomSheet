@@ -66,12 +66,10 @@ open class DAOBottomSheetNavigationController: UINavigationController {
         let appearance = UINavigationBarAppearance()
         appearance.configureWithOpaqueBackground()
         appearance.backgroundColor = .systemBackground
+        appearance.shadowColor = .clear
  
         navigationBar.standardAppearance = appearance
         navigationBar.scrollEdgeAppearance = appearance
-        
-        navigationBar.shadowImage = UIImage()
-        navigationBar.setBackgroundImage(UIImage(), for: .default)
     }
     
     private func setupGrabberView() {

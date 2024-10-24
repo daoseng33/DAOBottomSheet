@@ -71,11 +71,6 @@ open class DAOBottomSheetViewController: UIViewController {
         return navigationController?.viewControllers.first == self
     }
     
-    /// Add additional height above and below navigation header to satisfy designer's needed.
-    private let headerAdditionalHeight: CGFloat = 2
-    
-    private var scrollViewKVO: NSKeyValueObservation?
-    
     // MARK: - UI
     
     /// Content view's container scroll view.
@@ -93,14 +88,6 @@ open class DAOBottomSheetViewController: UIViewController {
     /// You can setup headerSlotView via ``DAOBottomSheetDelegate/setupHeaderSlotContent(with:slotContentView:)-9mvla``
     private lazy var headerSlotView: UIView = {
         let view = UIView()
-        view.translatesAutoresizingMaskIntoConstraints = false
-        
-        return view
-    }()
-    
-    private lazy var separatorView: SeparatorView = {
-        let view = SeparatorView()
-        view.isHidden = true
         view.translatesAutoresizingMaskIntoConstraints = false
         
         return view
@@ -177,9 +164,6 @@ open class DAOBottomSheetViewController: UIViewController {
         
         let contentScrollViewTopConstraint: NSLayoutConstraint
         let contentScrollViewBottomConstraint: NSLayoutConstraint
-        let separatorTopConstraint: NSLayoutConstraint
-        
-        view.addSubview(separatorView)
         
         // Header view
         if let headerView = delegate?.setupHeaderSlotContent(with: self) {
@@ -195,7 +179,7 @@ open class DAOBottomSheetViewController: UIViewController {
                 headerView.bottomAnchor.constraint(equalTo: headerSlotView.bottomAnchor)
             ])
             
-            let topConstraint: NSLayoutConstraint = headerSlotView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: headerAdditionalHeight)
+            let topConstraint: NSLayoutConstraint = headerSlotView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor)
             
             NSLayoutConstraint.activate([
                 topConstraint,
@@ -204,19 +188,9 @@ open class DAOBottomSheetViewController: UIViewController {
             ])
             
             contentScrollViewTopConstraint = contentScrollView.topAnchor.constraint(equalTo: headerSlotView.bottomAnchor)
-            
-            separatorTopConstraint = separatorView.topAnchor.constraint(equalTo: headerSlotView.bottomAnchor)
         } else {
-            contentScrollViewTopConstraint = contentScrollView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: headerAdditionalHeight)
-            separatorTopConstraint = separatorView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: headerAdditionalHeight)
+            contentScrollViewTopConstraint = contentScrollView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor)
         }
-        
-        NSLayoutConstraint.activate([
-            separatorView.leftAnchor.constraint(equalTo: view.leftAnchor),
-            separatorView.rightAnchor.constraint(equalTo: view.rightAnchor),
-            separatorView.heightAnchor.constraint(equalToConstant: 1),
-            separatorTopConstraint
-        ])
         
         // Footer view
         if let footerContentView = delegate?.setupFooterContentView(with: self) {
@@ -269,8 +243,6 @@ open class DAOBottomSheetViewController: UIViewController {
                 ])
             }
         }
-        
-        view.bringSubviewToFront(separatorView)
     }
     
     private func setupNavigationItem() {
@@ -313,18 +285,7 @@ open class DAOBottomSheetViewController: UIViewController {
     private func setupContentScrollView() {
         contentScrollView.translatesAutoresizingMaskIntoConstraints = false
         contentScrollView.automaticallyAdjustsScrollIndicatorInsets = false
-        
         contentScrollView.contentInsetAdjustmentBehavior = .never
-        
-        scrollViewKVO = contentScrollView.observe(\UIScrollView.contentOffset, options: [.new], changeHandler: { [weak self] scrollView, change in
-            guard let self = self, let newY = change.newValue?.y else { return }
-
-            if newY > 0 {
-                self.separatorView.isHidden = false
-            } else {
-                self.separatorView.isHidden = true
-            }
-        })
     }
     
     // MARK: - Utilites
@@ -336,8 +297,8 @@ open class DAOBottomSheetViewController: UIViewController {
         view.layoutIfNeeded()
 
         let grabberHeight: CGFloat = 20
-        let topMargin: CGFloat = (navigationController?.navigationBar.bounds.height ?? 0) + grabberHeight + headerAdditionalHeight
-        let total = topMargin + headerSlotView.bounds.height + contentScrollView.contentSize.height + footerView.bounds.height + headerAdditionalHeight
+        let topMargin: CGFloat = (navigationController?.navigationBar.bounds.height ?? 0) + grabberHeight
+        let total = topMargin + headerSlotView.bounds.height + contentScrollView.contentSize.height + footerView.bounds.height
         
         guard total > minHeight else {
             return minHeight
