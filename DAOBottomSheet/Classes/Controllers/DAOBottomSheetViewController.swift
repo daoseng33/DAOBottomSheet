@@ -296,7 +296,7 @@ open class DAOBottomSheetViewController: UIViewController {
         
         view.layoutIfNeeded()
 
-        let grabberHeight: CGFloat = 20
+        let grabberHeight: CGFloat = 22
         let topMargin: CGFloat = (navigationController?.navigationBar.bounds.height ?? 0) + grabberHeight
         let total = topMargin + headerSlotView.bounds.height + contentScrollView.contentSize.height + footerView.bounds.height
         

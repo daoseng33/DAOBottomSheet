@@ -12,8 +12,7 @@ class GrabberView: UIView {
     // MARK: - UI
     lazy var grabberView: UIView = {
         let view = UIView()
-        // TODO: Should be replace to DS color token
-        view.backgroundColor = UIColor(red: 0.835, green: 0.839, blue: 0.859, alpha: 1)
+        view.backgroundColor = .systemGray4
         view.layer.masksToBounds = true
         view.layer.cornerRadius = 2
         view.translatesAutoresizingMaskIntoConstraints = false

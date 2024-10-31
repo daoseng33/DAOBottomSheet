@@ -73,14 +73,16 @@ open class DAOBottomSheetNavigationController: UINavigationController {
     }
     
     private func setupGrabberView() {
-        let grabberViewHeight: CGFloat = 20
-        additionalSafeAreaInsets.top = -grabberViewHeight
         view.addSubview(grabberView)
         NSLayoutConstraint.activate([
             grabberView.topAnchor.constraint(equalTo: view.topAnchor),
             grabberView.leftAnchor.constraint(equalTo: view.leftAnchor),
             grabberView.rightAnchor.constraint(equalTo: view.rightAnchor),
         ])
+        
+        grabberView.setNeedsLayout()
+        grabberView.layoutIfNeeded()
+        additionalSafeAreaInsets.top = -grabberView.bounds.height + grabberView.frame.origin.y
     }
     
     private func roundingTopCorner(with view: UIView, radius: CGFloat) {
