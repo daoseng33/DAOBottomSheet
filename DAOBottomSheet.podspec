@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DAOBottomSheet'
-  s.version          = '1.3.0'
+  s.version          = '1.3.1'
   s.summary          = 'A navigatable bottom sheet that can put your custom content inside.'
 
 # This description is used to generate tags and improve search results.
